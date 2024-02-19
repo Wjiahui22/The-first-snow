@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		5F6BD4DA2B8162A9006BDEFF /* The_first_snowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BD4D92B8162A9006BDEFF /* The_first_snowApp.swift */; };
-		5F6BD4DC2B8162A9006BDEFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BD4DB2B8162A9006BDEFF /* ContentView.swift */; };
 		5F6BD4DE2B8162AB006BDEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BD4DD2B8162AB006BDEFF /* Assets.xcassets */; };
 		5F6BD4E82B81639E006BDEFF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BD4E72B81639E006BDEFF /* MenuView.swift */; };
 		5F928E1B2B818CCD0097BD43 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F928E1A2B818CCD0097BD43 /* GameView.swift */; };
 		5F928E202B81A51F0097BD43 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F928E1F2B81A51F0097BD43 /* FinalView.swift */; };
 		5F928E222B81BFBE0097BD43 /* EncouragementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F928E212B81BFBE0097BD43 /* EncouragementView.swift */; };
+		5F928E282B82803A0097BD43 /* ListenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F928E272B82803A0097BD43 /* ListenView.swift */; };
+		5F928E2A2B82804A0097BD43 /* MysteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F928E292B82804A0097BD43 /* MysteryView.swift */; };
+		5F928E2C2B82805C0097BD43 /* MoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F928E2B2B82805B0097BD43 /* MoveView.swift */; };
+		5F928E322B8280E10097BD43 /* ThinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F928E312B8280E10097BD43 /* ThinkView.swift */; };
+		5F928E3A2B82844F0097BD43 /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F928E392B82844E0097BD43 /* Music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F6BD4D62B8162A9006BDEFF /* The first snow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The first snow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6BD4D92B8162A9006BDEFF /* The_first_snowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_first_snowApp.swift; sourceTree = "<group>"; };
-		5F6BD4DB2B8162A9006BDEFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F6BD4DD2B8162AB006BDEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F6BD4E72B81639E006BDEFF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		5F928E1A2B818CCD0097BD43 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		5F928E1C2B8199880097BD43 /* The first snow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The first snow.entitlements"; sourceTree = "<group>"; };
 		5F928E1F2B81A51F0097BD43 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
 		5F928E212B81BFBE0097BD43 /* EncouragementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncouragementView.swift; sourceTree = "<group>"; };
+		5F928E272B82803A0097BD43 /* ListenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenView.swift; sourceTree = "<group>"; };
+		5F928E292B82804A0097BD43 /* MysteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteryView.swift; sourceTree = "<group>"; };
+		5F928E2B2B82805B0097BD43 /* MoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveView.swift; sourceTree = "<group>"; };
+		5F928E312B8280E10097BD43 /* ThinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkView.swift; sourceTree = "<group>"; };
+		5F928E392B82844E0097BD43 /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +66,19 @@
 		5F6BD4D82B8162A9006BDEFF /* The first snow */ = {
 			isa = PBXGroup;
 			children = (
+				5F928E3F2B8289690097BD43 /* Sound */,
 				5F928E1C2B8199880097BD43 /* The first snow.entitlements */,
 				5F6BD4D92B8162A9006BDEFF /* The_first_snowApp.swift */,
-				5F6BD4DB2B8162A9006BDEFF /* ContentView.swift */,
-				5F6BD4DD2B8162AB006BDEFF /* Assets.xcassets */,
-				5F6BD4DF2B8162AB006BDEFF /* Preview Content */,
 				5F6BD4E72B81639E006BDEFF /* MenuView.swift */,
 				5F928E1A2B818CCD0097BD43 /* GameView.swift */,
 				5F928E1F2B81A51F0097BD43 /* FinalView.swift */,
 				5F928E212B81BFBE0097BD43 /* EncouragementView.swift */,
+				5F928E312B8280E10097BD43 /* ThinkView.swift */,
+				5F928E2B2B82805B0097BD43 /* MoveView.swift */,
+				5F928E272B82803A0097BD43 /* ListenView.swift */,
+				5F928E292B82804A0097BD43 /* MysteryView.swift */,
+				5F6BD4DD2B8162AB006BDEFF /* Assets.xcassets */,
+				5F6BD4DF2B8162AB006BDEFF /* Preview Content */,
 			);
 			path = "The first snow";
 			sourceTree = "<group>";
@@ -76,6 +88,14 @@
 			children = (
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F928E3F2B8289690097BD43 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				5F928E392B82844E0097BD43 /* Music.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F928E3A2B82844F0097BD43 /* Music.mp3 in Resources */,
 				5F6BD4DE2B8162AB006BDEFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,11 +168,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6BD4DC2B8162A9006BDEFF /* ContentView.swift in Sources */,
+				5F928E2C2B82805C0097BD43 /* MoveView.swift in Sources */,
 				5F928E202B81A51F0097BD43 /* FinalView.swift in Sources */,
 				5F6BD4E82B81639E006BDEFF /* MenuView.swift in Sources */,
 				5F928E1B2B818CCD0097BD43 /* GameView.swift in Sources */,
+				5F928E322B8280E10097BD43 /* ThinkView.swift in Sources */,
+				5F928E2A2B82804A0097BD43 /* MysteryView.swift in Sources */,
 				5F6BD4DA2B8162A9006BDEFF /* The_first_snowApp.swift in Sources */,
+				5F928E282B82803A0097BD43 /* ListenView.swift in Sources */,
 				5F928E222B81BFBE0097BD43 /* EncouragementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

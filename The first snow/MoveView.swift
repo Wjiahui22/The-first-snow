@@ -73,7 +73,7 @@ struct MoveView: View {
     }
 
     private func openSeventeenVideo() {
-        if let url = URL(string: "https://www.youtue.com/shorts/TWvjsC9A9nw?si=0dvG_-w7Aqh5IE1i") {
+        if let url = URL(string: "https://www.youtube.com/shorts/TWvjsC9A9nw") {
             UIApplication.shared.open(url)
         }
     }

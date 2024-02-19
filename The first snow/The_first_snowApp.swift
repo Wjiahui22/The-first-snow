@@ -11,7 +11,8 @@ import SwiftUI
 struct The_first_snowApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuView()
+            GameView()
         }
     }
 }

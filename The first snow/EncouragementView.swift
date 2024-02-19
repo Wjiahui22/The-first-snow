@@ -21,12 +21,10 @@ struct EncouragementView: View {
                "Snowmen may melt, but resilience everlasting."
     ]
 
-    // State variable to track the displayed note
     @State private var displayedNote: String = ""
     @State var isGameViewPresented = false
     var body: some View {
         VStack {
-            // ZStack to overlay Image and Text
             ZStack {
                 // Background Image
                 Image("Border")
@@ -35,7 +33,6 @@ struct EncouragementView: View {
                     .ignoresSafeArea()
                     .scaledToFill()
                    
-                // Displayed note
                 Text(displayedNote)
                     .padding()
                     .foregroundColor(.black)
@@ -55,11 +52,9 @@ struct EncouragementView: View {
             }
             
             
-            // Button to generate a new encouraging note
             Button(action: {
                 // Generate a random index to select a note from the array
                 let randomIndex = Int.random(in: 0..<self.encouragingNotes.count)
-                // Set the displayed note
                 self.displayedNote = self.encouragingNotes[randomIndex]
             }) {
                 Text("Click Here")

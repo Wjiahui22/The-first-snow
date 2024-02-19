@@ -25,7 +25,7 @@ struct ListenView: View {
             Spacer()
             
             Button(action: {
-                //isGameViewPresented.toggle()
+                isGameViewPresented.toggle()
             }, label: {
                 HStack{
                     Image(systemName: "arrow.backward")
